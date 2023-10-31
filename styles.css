@@ -1,0 +1,50 @@
+/* Custom CSS */
+.idCard {
+    display: none;
+    margin-top: 20px;
+    border: 2px solid #ccc; /* Add a border to the ID card */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the ID card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the ID card */
+    max-width: 300px; /* Limit the width of the ID card */
+    margin: 0 auto; /* Center the ID card */
+    background-color: transparent; /* White background color */
+}
+
+#photoPreview {
+    display: none;
+}
+
+#imagePreview {
+    max-width: 10%;
+    height: auto;
+    border-radius: 100%; /* Make the image circular */
+    border: 4px solid white; /* Add a white border around the circular image */
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #007BFF;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #343A40;
+    color: white;
+}
+
+/* Student ID card style */
+.idCard.student {
+    background: linear-gradient(45deg, #FFC107, #FF9800); /* Gradient background for students */
+    color: #000; /* Text color for students */
+}
+
+/* Teacher ID card style */
+.idCard.teacher {
+    background: linear-gradient(45deg, #4285F4, #0F9D58); /* Gradient background for teachers */
+    color: #fff; /* Text color for teachers */
+}
